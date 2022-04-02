@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="https://glitch.com/favicon.ico" />
+    <title>Muzaffar Mukhitdinov</title>
+    <link rel="stylesheet" href="/style.css" />
+    <script src="/script.js" defer></script>
+  </head>
+  
+  <body onload="updateLives();">
+    <h1> Earth is in danger and only YOU can save us all</h1>
+    <p>
+      Repeat back the patterns before the time expires and we live! 
+    </p>
+    <div id="parentOfBtn">
+      <button id="startBtn" onclick="startGame()" >
+        Start Timer
+      </button>
+      <button id="stopBtn" class="hidden" onclick="stopGame()">
+        Stop 
+      </button>
+    </div>
+    <div id="time">90</div>
+    <div id="liveContainer">
+      Lives Remaining <span id="lives"></span> 
+    </div>
+    <div id="heartContainer">
+      <img id="heart1" src="https://cdn.glitch.global/1a5bea41-87cb-4dc2-9d86-51020f861561/heart.png?v=1648873042532"/>
+      <img id="heart2" src="https://cdn.glitch.global/1a5bea41-87cb-4dc2-9d86-51020f861561/heart.png?v=1648873042532"/>
+      <img id="heart3" src="https://cdn.glitch.global/1a5bea41-87cb-4dc2-9d86-51020f861561/heart.png?v=1648873042532"/>
+    </div>
+    <div id="gameButtonArea">
+      <button id="button1" onclick="guess(1)" onmousedown="startTone(1)" onmouseup="stopTone()"></button>
+      <button id="button2" onclick="guess(2)" onmousedown="startTone(2)" onmouseup="stopTone()"></button>
+      <button id="button3" onclick="guess(3)" onmousedown="startTone(3)" onmouseup="stopTone()"></button>
+      <button id="button4" onclick="guess(4)" onmousedown="startTone(4)" onmouseup="stopTone()"></button>
+      <button id="button5" onclick="guess(5)" onmousedown="startTone(5)" onmouseup="stopTone()"></button>
+    </div>
+    <div class="glitchButton" style="position:fixed; top:20px; right:20px;"></div>
+    <script src="https://button.glitch.me/button.js" defer></script>
+  </body>
+</html>
