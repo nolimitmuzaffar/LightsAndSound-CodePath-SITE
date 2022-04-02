@@ -64,7 +64,7 @@ General
 
 ## Interview Recording URL Link
 
-[My 5-minute Interview Recording](your-link-here)
+[My 5-minute Interview Recording](https://drive.google.com/file/d/13-up4vw4lsZlnt9fgSxHlm5ptR3oEI6d/view?usp=sharing)
 
 
 ## License
